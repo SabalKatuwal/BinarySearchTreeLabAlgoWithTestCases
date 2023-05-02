@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A696F8C72A014DCE00D08E18 /* BinarySearchLabAlgoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A696F8C62A014DCE00D08E18 /* BinarySearchLabAlgoApp.swift */; };
+		A696F8C92A014DCE00D08E18 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A696F8C82A014DCE00D08E18 /* ContentView.swift */; };
+		A696F8CB2A014DCF00D08E18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A696F8CA2A014DCF00D08E18 /* Assets.xcassets */; };
+		A696F8CE2A014DCF00D08E18 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A696F8CD2A014DCF00D08E18 /* Preview Assets.xcassets */; };
+		A696F8D92A014DD000D08E18 /* BinarySearchLabAlgoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A696F8D82A014DD000D08E18 /* BinarySearchLabAlgoTests.swift */; };
+		A696F8E32A014DD000D08E18 /* BinarySearchLabAlgoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A696F8E22A014DD000D08E18 /* BinarySearchLabAlgoUITests.swift */; };
+		A696F8E52A014DD000D08E18 /* BinarySearchLabAlgoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A696F8E42A014DD000D08E18 /* BinarySearchLabAlgoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A696F8D52A014DD000D08E18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A696F8BB2A014DCE00D08E18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A696F8C22A014DCE00D08E18;
+			remoteInfo = BinarySearchLabAlgo;
+		};
+		A696F8DF2A014DD000D08E18 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A696F8BB2A014DCE00D08E18 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A696F8C22A014DCE00D08E18;
+			remoteInfo = BinarySearchLabAlgo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A696F8C32A014DCE00D08E18 /* BinarySearchLabAlgo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BinarySearchLabAlgo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A696F8C62A014DCE00D08E18 /* BinarySearchLabAlgoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchLabAlgoApp.swift; sourceTree = "<group>"; };
+		A696F8C82A014DCE00D08E18 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A696F8CA2A014DCF00D08E18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A696F8CD2A014DCF00D08E18 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A696F8CF2A014DCF00D08E18 /* BinarySearchLabAlgo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BinarySearchLabAlgo.entitlements; sourceTree = "<group>"; };
+		A696F8D42A014DD000D08E18 /* BinarySearchLabAlgoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinarySearchLabAlgoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A696F8D82A014DD000D08E18 /* BinarySearchLabAlgoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchLabAlgoTests.swift; sourceTree = "<group>"; };
+		A696F8DE2A014DD000D08E18 /* BinarySearchLabAlgoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinarySearchLabAlgoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A696F8E22A014DD000D08E18 /* BinarySearchLabAlgoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchLabAlgoUITests.swift; sourceTree = "<group>"; };
+		A696F8E42A014DD000D08E18 /* BinarySearchLabAlgoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchLabAlgoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A696F8C02A014DCE00D08E18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A696F8D12A014DD000D08E18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A696F8DB2A014DD000D08E18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A696F8BA2A014DCE00D08E18 = {
+			isa = PBXGroup;
+			children = (
+				A696F8C52A014DCE00D08E18 /* BinarySearchLabAlgo */,
+				A696F8D72A014DD000D08E18 /* BinarySearchLabAlgoTests */,
+				A696F8E12A014DD000D08E18 /* BinarySearchLabAlgoUITests */,
+				A696F8C42A014DCE00D08E18 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A696F8C42A014DCE00D08E18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A696F8C32A014DCE00D08E18 /* BinarySearchLabAlgo.app */,
+				A696F8D42A014DD000D08E18 /* BinarySearchLabAlgoTests.xctest */,
+				A696F8DE2A014DD000D08E18 /* BinarySearchLabAlgoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A696F8C52A014DCE00D08E18 /* BinarySearchLabAlgo */ = {
+			isa = PBXGroup;
+			children = (
+				A696F8C62A014DCE00D08E18 /* BinarySearchLabAlgoApp.swift */,
+				A696F8C82A014DCE00D08E18 /* ContentView.swift */,
+				A696F8CA2A014DCF00D08E18 /* Assets.xcassets */,
+				A696F8CF2A014DCF00D08E18 /* BinarySearchLabAlgo.entitlements */,
+				A696F8CC2A014DCF00D08E18 /* Preview Content */,
+			);
+			path = BinarySearchLabAlgo;
+			sourceTree = "<group>";
+		};
+		A696F8CC2A014DCF00D08E18 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A696F8CD2A014DCF00D08E18 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A696F8D72A014DD000D08E18 /* BinarySearchLabAlgoTests */ = {
+			isa = PBXGroup;
+			children = (
+				A696F8D82A014DD000D08E18 /* BinarySearchLabAlgoTests.swift */,
+			);
+			path = BinarySearchLabAlgoTests;
+			sourceTree = "<group>";
+		};
+		A696F8E12A014DD000D08E18 /* BinarySearchLabAlgoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A696F8E22A014DD000D08E18 /* BinarySearchLabAlgoUITests.swift */,
+				A696F8E42A014DD000D08E18 /* BinarySearchLabAlgoUITestsLaunchTests.swift */,
+			);
+			path = BinarySearchLabAlgoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A696F8C22A014DCE00D08E18 /* BinarySearchLabAlgo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A696F8E82A014DD000D08E18 /* Build configuration list for PBXNativeTarget "BinarySearchLabAlgo" */;
+			buildPhases = (
+				A696F8BF2A014DCE00D08E18 /* Sources */,
+				A696F8C02A014DCE00D08E18 /* Frameworks */,
+				A696F8C12A014DCE00D08E18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BinarySearchLabAlgo;
+			productName = BinarySearchLabAlgo;
+			productReference = A696F8C32A014DCE00D08E18 /* BinarySearchLabAlgo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A696F8D32A014DD000D08E18 /* BinarySearchLabAlgoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A696F8EB2A014DD000D08E18 /* Build configuration list for PBXNativeTarget "BinarySearchLabAlgoTests" */;
+			buildPhases = (
+				A696F8D02A014DD000D08E18 /* Sources */,
+				A696F8D12A014DD000D08E18 /* Frameworks */,
+				A696F8D22A014DD000D08E18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A696F8D62A014DD000D08E18 /* PBXTargetDependency */,
+			);
+			name = BinarySearchLabAlgoTests;
+			productName = BinarySearchLabAlgoTests;
+			productReference = A696F8D42A014DD000D08E18 /* BinarySearchLabAlgoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A696F8DD2A014DD000D08E18 /* BinarySearchLabAlgoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A696F8EE2A014DD000D08E18 /* Build configuration list for PBXNativeTarget "BinarySearchLabAlgoUITests" */;
+			buildPhases = (
+				A696F8DA2A014DD000D08E18 /* Sources */,
+				A696F8DB2A014DD000D08E18 /* Frameworks */,
+				A696F8DC2A014DD000D08E18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A696F8E02A014DD000D08E18 /* PBXTargetDependency */,
+			);
+			name = BinarySearchLabAlgoUITests;
+			productName = BinarySearchLabAlgoUITests;
+			productReference = A696F8DE2A014DD000D08E18 /* BinarySearchLabAlgoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A696F8BB2A014DCE00D08E18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					A696F8C22A014DCE00D08E18 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					A696F8D32A014DD000D08E18 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A696F8C22A014DCE00D08E18;
+					};
+					A696F8DD2A014DD000D08E18 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = A696F8C22A014DCE00D08E18;
+					};
+				};
+			};
+			buildConfigurationList = A696F8BE2A014DCE00D08E18 /* Build configuration list for PBXProject "BinarySearchLabAlgo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A696F8BA2A014DCE00D08E18;
+			productRefGroup = A696F8C42A014DCE00D08E18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A696F8C22A014DCE00D08E18 /* BinarySearchLabAlgo */,
+				A696F8D32A014DD000D08E18 /* BinarySearchLabAlgoTests */,
+				A696F8DD2A014DD000D08E18 /* BinarySearchLabAlgoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A696F8C12A014DCE00D08E18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A696F8CE2A014DCF00D08E18 /* Preview Assets.xcassets in Resources */,
+				A696F8CB2A014DCF00D08E18 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A696F8D22A014DD000D08E18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A696F8DC2A014DD000D08E18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A696F8BF2A014DCE00D08E18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A696F8C92A014DCE00D08E18 /* ContentView.swift in Sources */,
+				A696F8C72A014DCE00D08E18 /* BinarySearchLabAlgoApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A696F8D02A014DD000D08E18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A696F8D92A014DD000D08E18 /* BinarySearchLabAlgoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A696F8DA2A014DD000D08E18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A696F8E52A014DD000D08E18 /* BinarySearchLabAlgoUITestsLaunchTests.swift in Sources */,
+				A696F8E32A014DD000D08E18 /* BinarySearchLabAlgoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A696F8D62A014DD000D08E18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A696F8C22A014DCE00D08E18 /* BinarySearchLabAlgo */;
+			targetProxy = A696F8D52A014DD000D08E18 /* PBXContainerItemProxy */;
+		};
+		A696F8E02A014DD000D08E18 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A696F8C22A014DCE00D08E18 /* BinarySearchLabAlgo */;
+			targetProxy = A696F8DF2A014DD000D08E18 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A696F8E62A014DD000D08E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A696F8E72A014DD000D08E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		A696F8E92A014DD000D08E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BinarySearchLabAlgo/BinarySearchLabAlgo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BinarySearchLabAlgo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sbl.BinarySearchLabAlgo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A696F8EA2A014DD000D08E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BinarySearchLabAlgo/BinarySearchLabAlgo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BinarySearchLabAlgo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sbl.BinarySearchLabAlgo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A696F8EC2A014DD000D08E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sbl.BinarySearchLabAlgoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BinarySearchLabAlgo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BinarySearchLabAlgo";
+			};
+			name = Debug;
+		};
+		A696F8ED2A014DD000D08E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sbl.BinarySearchLabAlgoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BinarySearchLabAlgo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BinarySearchLabAlgo";
+			};
+			name = Release;
+		};
+		A696F8EF2A014DD000D08E18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sbl.BinarySearchLabAlgoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BinarySearchLabAlgo;
+			};
+			name = Debug;
+		};
+		A696F8F02A014DD000D08E18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.sbl.BinarySearchLabAlgoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BinarySearchLabAlgo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A696F8BE2A014DCE00D08E18 /* Build configuration list for PBXProject "BinarySearchLabAlgo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A696F8E62A014DD000D08E18 /* Debug */,
+				A696F8E72A014DD000D08E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A696F8E82A014DD000D08E18 /* Build configuration list for PBXNativeTarget "BinarySearchLabAlgo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A696F8E92A014DD000D08E18 /* Debug */,
+				A696F8EA2A014DD000D08E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A696F8EB2A014DD000D08E18 /* Build configuration list for PBXNativeTarget "BinarySearchLabAlgoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A696F8EC2A014DD000D08E18 /* Debug */,
+				A696F8ED2A014DD000D08E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A696F8EE2A014DD000D08E18 /* Build configuration list for PBXNativeTarget "BinarySearchLabAlgoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A696F8EF2A014DD000D08E18 /* Debug */,
+				A696F8F02A014DD000D08E18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A696F8BB2A014DCE00D08E18 /* Project object */;
+}
