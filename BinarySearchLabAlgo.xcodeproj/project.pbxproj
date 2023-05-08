@@ -14,6 +14,7 @@
 		A696F8D92A014DD000D08E18 /* BinarySearchLabAlgoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A696F8D82A014DD000D08E18 /* BinarySearchLabAlgoTests.swift */; };
 		A696F8E32A014DD000D08E18 /* BinarySearchLabAlgoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A696F8E22A014DD000D08E18 /* BinarySearchLabAlgoUITests.swift */; };
 		A696F8E52A014DD000D08E18 /* BinarySearchLabAlgoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A696F8E42A014DD000D08E18 /* BinarySearchLabAlgoUITestsLaunchTests.swift */; };
+		A696F8F22A017C3A00D08E18 /* bst.swift in Sources */ = {isa = PBXBuildFile; fileRef = A696F8F12A017C3A00D08E18 /* bst.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		A696F8DE2A014DD000D08E18 /* BinarySearchLabAlgoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinarySearchLabAlgoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A696F8E22A014DD000D08E18 /* BinarySearchLabAlgoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchLabAlgoUITests.swift; sourceTree = "<group>"; };
 		A696F8E42A014DD000D08E18 /* BinarySearchLabAlgoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchLabAlgoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A696F8F12A017C3A00D08E18 /* bst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bst.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		A696F8BA2A014DCE00D08E18 = {
 			isa = PBXGroup;
 			children = (
+				A696F8F12A017C3A00D08E18 /* bst.swift */,
 				A696F8C52A014DCE00D08E18 /* BinarySearchLabAlgo */,
 				A696F8D72A014DD000D08E18 /* BinarySearchLabAlgoTests */,
 				A696F8E12A014DD000D08E18 /* BinarySearchLabAlgoUITests */,
@@ -261,6 +264,7 @@
 			files = (
 				A696F8C92A014DCE00D08E18 /* ContentView.swift in Sources */,
 				A696F8C72A014DCE00D08E18 /* BinarySearchLabAlgoApp.swift in Sources */,
+				A696F8F22A017C3A00D08E18 /* bst.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
